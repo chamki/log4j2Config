@@ -1,0 +1,26 @@
+12:28:59.165 [main] TRACE com.mlq.love.entity.Log4j2Entity - Enter
+12:28:59.167 [main] ERROR com.mlq.love.entity.Log4j2Entity - Did it again
+12:28:59.167 [main] TRACE com.mlq.love.entity.Log4j2Entity - Exit with(false)
+12:31:17.407 [main] TRACE com.mlq.love.entity.Log4j2Entity - Enter
+12:31:17.409 [main] ERROR com.mlq.love.entity.Log4j2Entity - Did it again
+12:31:17.409 [main] TRACE com.mlq.love.entity.Log4j2Entity - Exit with(false)
+12:40:34.625 [main] TRACE com.mlq.love.entity.Log4j2Entity - Enter
+12:40:34.627 [main] ERROR com.mlq.love.entity.Log4j2Entity - Did it again
+12:40:34.627 [main] INFO  com.mlq.love.entity.Log4j2Entity - 测试完成！
+12:40:34.627 [main] TRACE com.mlq.love.entity.Log4j2Entity - Exit with(false)
+12:41:10.440 [main] TRACE com.mlq.love.entity.Log4j2Entity - Enter
+12:41:10.443 [main] ERROR com.mlq.love.entity.Log4j2Entity - Did it again
+12:41:10.443 [main] INFO  com.mlq.love.entity.Log4j2Entity - 测试完成！
+12:41:10.443 [main] TRACE com.mlq.love.entity.Log4j2Entity - Exit with(false)
+10:06:11.813 [main] TRACE com.mlq.love.entity.Log4j2Entity - Enter
+10:06:11.829 [main] ERROR com.mlq.love.entity.Log4j2Entity - Did it again
+10:06:11.829 [main] INFO  com.mlq.love.entity.Log4j2Entity - 测试完成！
+10:06:11.829 [main] TRACE com.mlq.love.entity.Log4j2Entity - Exit with(false)
+10:06:38.120 [main] TRACE com.mlq.love.entity.Log4j2Entity - Enter
+10:06:38.120 [main] ERROR com.mlq.love.entity.Log4j2Entity - Did it again
+10:06:38.120 [main] INFO  com.mlq.love.entity.Log4j2Entity - 测试完成！
+10:06:38.120 [main] TRACE com.mlq.love.entity.Log4j2Entity - Exit with(false)
+10:08:08.283 [main] TRACE com.mlq.love.entity.Log4j2Entity - Enter
+10:08:08.283 [main] ERROR com.mlq.love.entity.Log4j2Entity - Did it again
+10:08:08.283 [main] INFO  com.mlq.love.entity.Log4j2Entity - 测试完成！
+10:08:08.283 [main] TRACE com.mlq.love.entity.Log4j2Entity - Exit with(false)

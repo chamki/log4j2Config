@@ -11,6 +11,9 @@ public class Log4j2Entity {
      System.out.println("我正在测试使用Log4j2");
      logger.error("Did it again");
      logger.info("测试完成！");
+     //后台打印测试结果
+     System.out.println("CONSOLE测试完成！");
      return logger.exit(false);
+     
   }
 }
