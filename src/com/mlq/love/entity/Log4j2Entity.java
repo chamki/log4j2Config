@@ -8,13 +8,17 @@ public class Log4j2Entity {
   
   public static boolean printTestString(){
      logger.entry();
-     System.out.println("�����ڲ���ʹ��Log4j2");
+     System.out.println("开始Log4j2");
      logger.error("Did it again");
-     logger.info("������ɣ�");
+     logger.info("结束Log4j2");
      //打印数据
      System.out.println("CONSOLE输出数据");
      logger.info("输出日志信息");
      return logger.exit(false);
      
+  }
+  
+  public void print() {
+	  logger.debug("This method is add, it is not useful.");
   }
 }

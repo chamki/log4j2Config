@@ -14,7 +14,7 @@ public class TestLog4j2 {
         logger.error("Didn`t do it");
      }
      //打印数据
-     System.out.println("application is ended!");
+System.out.println("application is ended!");
      logger.trace("Appliaction is exiting the Log4j2Entity...");
   }
 }
