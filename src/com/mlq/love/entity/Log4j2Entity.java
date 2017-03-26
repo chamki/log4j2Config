@@ -8,11 +8,12 @@ public class Log4j2Entity {
   
   public static boolean printTestString(){
      logger.entry();
-     System.out.println("ÎÒÕıÔÚ²âÊÔÊ¹ÓÃLog4j2");
+     System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ú²ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½Log4j2");
      logger.error("Did it again");
-     logger.info("²âÊÔÍê³É£¡");
-     //ºóÌ¨´òÓ¡²âÊÔ½á¹û
-     System.out.println("CONSOLE²âÊÔÍê³É£¡");
+     logger.info("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É£ï¿½");
+     //æ‰“å°æ•°æ®
+     System.out.println("CONSOLEè¾“å‡ºæ•°æ®");
+     logger.info("è¾“å‡ºæ—¥å¿—ä¿¡æ¯");
      return logger.exit(false);
      
   }
