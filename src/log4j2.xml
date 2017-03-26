@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="off" monitorInterval="30">
+  <Appenders>
+     <Console name="Console" target="SYSTEM_OUT">
+        <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} -%msg%n"/>
+     </Console>
+     <File name="Trace" fileName="WebContent/WEB-INF/logs/debug.log" append="true">
+        <PatternLayout>
+           <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+        </PatternLayout>
+     </File>
+     <File name="error" fileName="WebContent/WEB-INF/logs/erorr.log" append="true">
+        <PatternLayout>
+           <Pattern>%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+        </PatternLayout>
+     </File>
+     
+  </Appenders>
+  <Loggers>
+     <Logger name="com.mlq.love.entity" level="TRACE" additivity="false">
+        <AppenderRef ref="Trace"/>
+     </Logger>
+     <Root level="info">
+        <AppenderRef ref="error"/>
+     </Root>
+  </Loggers>
+</Configuration>
