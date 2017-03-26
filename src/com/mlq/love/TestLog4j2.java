@@ -13,6 +13,8 @@ public class TestLog4j2 {
      if(!Log4j2Entity.printTestString()){
         logger.error("Didn`t do it");
      }
+     //打印数据
+     System.out.pritnln("application is ended!");
      logger.trace("Appliaction is exiting the Log4j2Entity...");
   }
 }
