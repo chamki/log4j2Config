@@ -1,4 +1,4 @@
-package com.mlq.love;
+package com.mlq.love.test;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
