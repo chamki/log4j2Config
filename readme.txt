@@ -1,1 +1,1 @@
-This project is just a test the config and base usage of the log4j2, you can get more detail about the usage of log4j2 in the org.apache.log4j2.
+This project is just a test the config and base usage of the log4j2, you can get more detail about the usage of log4j2 in the org.apache.log4j2. I only use xml file to config the project, actually you can use json format file.
