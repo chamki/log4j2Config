@@ -45,7 +45,7 @@
 </script>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>首页</title>
 </head>
 <body>
 	<p>
