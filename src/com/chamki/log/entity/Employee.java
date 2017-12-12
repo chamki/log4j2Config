@@ -1,4 +1,4 @@
-package com.mlq.love.entity;
+package com.chamki.log.entity;
 
 import java.util.Date;
 

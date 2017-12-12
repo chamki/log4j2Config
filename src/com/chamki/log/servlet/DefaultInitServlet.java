@@ -1,4 +1,4 @@
-package com.mlq.love.servlet;
+package com.chamki.log.servlet;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,8 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.core.LoggerContext;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Servlet implementation class DefaultInitServlet
@@ -19,7 +20,7 @@ import org.apache.logging.log4j.core.LoggerContext;
 public class DefaultInitServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	private Logger logger;
+	private Logger logger = LoggerFactory.getLogger(DefaultInitServlet.class);  ;
 	
 	public void init() throws ServletException {  
 	    String configRoot = this.getInitParameter("configRoot");  
@@ -29,12 +30,10 @@ public class DefaultInitServlet extends HttpServlet {
         LoggerContext context =(LoggerContext)LogManager.getContext(false);  
         context.setConfigLocation(file.toURI());  
           
-        //ÖØĞÂ³õÊ¼»¯Log4j2µÄÅäÖÃÉÏÏÂÎÄ  
-        context.reconfigure();  
-	  
-	      
-	    //todo: ÕâÀïÄÃµ½µÄlogger£¬ÒÑ¾­ÊÇ°´ĞÂÅäÖÃÎÄ¼ş³õÊ¼»¯µÄÁË  
-	    logger = LogManager.getLogger(DefaultInitServlet.class);  
+        //é‡æ–°æ‰«æé…log4j2.xmlç½®æ–‡ä»¶
+        context.reconfigure(); 
+        logger.info("åˆå§‹åŒ–æ—¥å¿—æ–‡ä»¶é…ç½®");
+	
 	}  
 
 	/**

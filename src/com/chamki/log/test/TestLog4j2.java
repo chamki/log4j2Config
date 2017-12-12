@@ -1,8 +1,9 @@
-package com.mlq.love.test;
+package com.chamki.log.test;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import com.mlq.love.entity.Log4j2Entity;
+
+import com.chamki.log.entity.Log4j2Entity;
  
 public class TestLog4j2 {
 	

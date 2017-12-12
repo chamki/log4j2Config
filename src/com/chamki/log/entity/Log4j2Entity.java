@@ -1,4 +1,4 @@
-package com.mlq.love.entity;
+package com.chamki.log.entity;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
